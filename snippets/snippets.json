@@ -1,0 +1,132 @@
+{
+	"react-functional-component": {
+		"scope": "typescriptreact",
+		"prefix": "react-functional-component",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface Props {",
+			"}",
+			"",
+			"export default function ${1:$TM_FILENAME_BASE}(props: Props): JSX.Element {",
+			"  return (<div>TODO</div>);",
+			"}",
+			""
+		],
+		"description": "Scaffold React functional component."
+	},
+
+	"react-class-component-stateteless": {
+		"scope": "typescriptreact",
+		"prefix": "react-class-component-stateteless",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface Props {",
+			"}",
+			"",
+			"export default class ${1:$TM_FILENAME_BASE} extends React.Component<Props, {}> {",
+			"  render(): JSX.Element {",
+			"    return (<div>TODO</div>);",
+			"  }",
+			"}",
+			""
+		],
+		"description": "Scaffold React class component without state."
+	},
+	
+	"react-class-component-stateteful": {
+		"scope": "typescriptreact",
+		"prefix": "react-class-component-stateteful",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface Props {",
+			"}",
+			"",
+			"export interface State {",
+			"}",
+			"",
+			"export default class ${1:$TM_FILENAME_BASE} extends React.Component<Props, State> {",
+			"  state = {",
+			"  };",
+			"",
+			"  render(): JSX.Element {",
+			"    return (<div>TODO</div>);",
+			"  }",
+			"}",
+			""
+		],
+		"description": "Scaffold React class component with state."
+	},
+
+	"react-mobx-functional-component": {
+		"scope": "typescriptreact",
+		"prefix": "react-mobx-functional-component",
+		"body": [
+			"import { observer } from 'mobx-react';",
+			"import * as React from 'react';",
+			"",
+			"export interface Props {",
+			"}",
+			"",
+			"export function ${1:$TM_FILENAME_BASE}(props: Props): JSX.Element {",
+			"  return (<div>TODO</div>);",
+			"}",
+			"",
+			"export default observer(${1:$TM_FILENAME_BASE});",
+			""
+		],
+		"description": "Scaffold mobx-enabled React functional component."
+	},
+
+	"react-mobx-class-component-stateteless": {
+		"scope": "typescriptreact",
+		"prefix": "react-mobx-class-component-stateteless",
+		"body": [
+			"import { observer } from 'mobx-react';",
+			"import * as React from 'react';",
+			"",
+			"export interface Props {",
+			"}",
+			"",
+			"export class ${1:$TM_FILENAME_BASE} extends React.Component<Props, {}> {",
+			"  render(): JSX.Element {",
+			"    return (<div>TODO</div>);",
+			"  }",
+			"}",
+			"",
+			"export default observer(${1:$TM_FILENAME_BASE});",
+			""
+		],
+		"description": "Scaffold mobx-enabled React class component without state."
+	},
+	
+	"react-mobx-class-component-stateteful": {
+		"scope": "typescriptreact",
+		"prefix": "react-mobx-class-component-stateteful",
+		"body": [
+			"import { observer } from 'mobx-react';",
+			"import * as React from 'react';",
+			"",
+			"export interface Props {",
+			"}",
+			"",
+			"export interface State {",
+			"}",
+			"",
+			"export class ${1:$TM_FILENAME_BASE} extends React.Component<Props, State> {",
+			"  state = {",
+			"  };",
+			"",
+			"  render(): JSX.Element {",
+			"    return (<div>TODO</div>);",
+			"  }",
+			"}",
+			"",
+			"export default observer(${1:$TM_FILENAME_BASE});",
+			""
+		],
+		"description": "Scaffold mobx-enabled React class component with state."
+	}
+}

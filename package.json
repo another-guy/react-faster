@@ -1,0 +1,40 @@
+{
+    "name": "react-faster",
+    "displayName": "react-faster",
+    "icon": "images/logo.png",
+    "description": "React snippets done right.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "author": {
+        "name": "Igor Soloydenko",
+        "email": "soloydenko@gmail.com",
+        "url": "https://soloydenko.com/"
+    },
+    "publisher": "igorsoloydenko",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/another-guy/react-faster.git"
+    },
+    "keywords": [
+        "Teact",
+        "Mobx",
+        "TypeScript",
+        "tsx",
+        "snippet",
+        "snippets",
+        "React snippets"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

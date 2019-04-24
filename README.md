@@ -1,10 +1,12 @@
 # React-Faster
 
-React snippets done right.
+React snippets for TypeScript done right.
 
 Many people are not good in memorizing magic acronims like `rcc`, `imr`, and similar.
 
 So many books on coding stress on importance of readable names. So, it's okay to spell out snippets' prefixes:
+
+![](./images/v0-0-2--main-demo.gif)
 
 ## List of Snippets
 

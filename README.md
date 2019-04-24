@@ -1,4 +1,4 @@
-# React-Faster
+# react-faster
 
 React snippets for TypeScript done right.
 

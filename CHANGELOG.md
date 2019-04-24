@@ -4,6 +4,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
 
+## 0.0.3 — 2019-04-24
+
+### Added
+
+- Added a GIF demo to docs.
+
 ## 0.0.2 — 2019-04-24
 
 ### Added

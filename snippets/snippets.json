@@ -138,5 +138,70 @@
 			""
 		],
 		"description": "Scaffold mobx-enabled React class component with state."
+	},
+
+	"react-hook-useState-initialize-immediately": {
+		"scope": "typescriptreact",
+		"prefix": "react-hook-useState-initialize-immediately",
+		"body": [
+			"const [${1}, ${2}] = useState(${3});"
+		],
+		"description": "Template of State Hook with immediate initialization."
+	},
+
+	"react-hook-useState-initialize-lazily": {
+		"scope": "typescriptreact",
+		"prefix": "react-hook-useState-initialize-lazily",
+		"body": [
+			"const [${1}, ${2}] = useState(() => { return ${3}; });"
+		],
+		"description": "Template of State Hook with delayed initialization using a callback function."
+	},
+
+	"react-hook-useEffect": {
+		"scope": "typescriptreact",
+		"prefix": "react-hook-useEffect",
+		"body": [
+			"useEffect(() => { ${1:/* effect */} });"
+		],
+		"description": "Template of Effect Hook."
+	},
+
+	"react-hook-useEffect-with-cleanup": {
+		"scope": "typescriptreact",
+		"prefix": "react-hook-useEffect-with-cleanup",
+		"body": [
+            "useEffect(() => {",
+            "  const ${1:subscription} = ${2:someEffect()};",
+            "  return () => {",
+            "    // Clean up the subscription.",
+            "    ${1}.${3:unsubscribe}();",
+            "  };",
+            "});"
+		],
+		"description": "Template of Effect Hook with a cleanup function."
+	},
+
+	"react-hook-useEffect-with-dependencies": {
+		"prefix": "react-hook-useEffect-with-dependencies",
+		"body": [
+			"useEffect(() => { ${1:/* effect */} }, [${2:/* dependencies */}]);"
+		],
+		"description": "Template of Effect Hook with explicit dependencies."
+	},
+
+	"react-hook-useEffect-with-cleanup-and-dependencies": {
+		"scope": "typescriptreact",
+		"prefix": "react-hook-useEffect-with-cleanup-and-dependencies",
+		"body": [
+            "useEffect(() => {",
+            "  const ${1:subscription} = ${2:someEffect()};",
+            "  return () => {",
+            "    // Clean up the subscription.",
+            "    ${1}.${3:unsubscribe}();",
+            "  };",
+            "}, [${4:/* dependencies */}]);"
+		],
+		"description": "Template of Effect Hook with a cleanup function and explicit dependencies."
 	}
 }

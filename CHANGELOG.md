@@ -4,7 +4,26 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 
 
 ## Unreleased
 
-- Thinking about adding React hook snippets.
+- Thinking about adding React hook snippets:
+  - for `useContext`;
+  - for `useReducer`;
+  - for `useCallback`;
+  - for `useMemo`;
+  - for `useRef`;
+  - for `useImperativeHandle`;
+  - for `useLayoutEffect`;
+  - for `useDebugValue`.
+
+## [0.0.5] — 2019-04-25
+
+### Added
+
+- `react-hook-useState-initialize-immediately` snippet.
+- `react-hook-useState-initialize-lazily` snippet.
+- `react-hook-useEffect` snippet.
+- `react-hook-useEffect-with-cleanup` snippet.
+- `react-hook-useEffect-with-dependencies` snippet.
+- `react-hook-useEffect-with-cleanup-and-dependencies` snippet.
 
 ## [0.0.4] — 2019-04-24
 

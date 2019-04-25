@@ -3,14 +3,17 @@
 		"scope": "typescriptreact",
 		"prefix": "react-component-functional",
 		"body": [
-			"import * as React from 'react';",
+			"import React from 'react';",
 			"",
 			"export interface Props {",
 			"}",
 			"",
-			"export default function ${1:$TM_FILENAME_BASE}(props: Props): JSX.Element {",
-			"  return (<div>TODO</div>);",
-			"}",
+			"const ${1:$TM_FILENAME_BASE}: React.FC<Props> =",
+			"  (props, context) => {",
+			"    return (<div>TODO</div>);",
+			"  };",
+			"",
+			"export default ${1:$TM_FILENAME_BASE};",
 			""
 		],
 		"description": "Scaffold React functional component."
@@ -20,7 +23,7 @@
 		"scope": "typescriptreact",
 		"prefix": "react-component-class-stateteless",
 		"body": [
-			"import * as React from 'react';",
+			"import React from 'react';",
 			"",
 			"export interface Props {",
 			"}",
@@ -39,7 +42,7 @@
 		"scope": "typescriptreact",
 		"prefix": "react-component-class-stateteful",
 		"body": [
-			"import * as React from 'react';",
+			"import React from 'react';",
 			"",
 			"export interface Props {",
 			"}",
@@ -68,14 +71,15 @@
 		"prefix": "react-mobx-component-functional",
 		"body": [
 			"import { observer } from 'mobx-react';",
-			"import * as React from 'react';",
+			"import React from 'react';",
 			"",
 			"export interface Props {",
 			"}",
 			"",
-			"export function ${1:$TM_FILENAME_BASE}(props: Props): JSX.Element {",
-			"  return (<div>TODO</div>);",
-			"}",
+			"export const ${1:$TM_FILENAME_BASE}: React.FC<Props> =",
+			"  (props, context) => {",
+			"    return (<div>TODO</div>);",
+			"  };",
 			"",
 			"export default observer(${1:$TM_FILENAME_BASE});",
 			""
@@ -88,7 +92,7 @@
 		"prefix": "react-mobx-component-class-stateteless",
 		"body": [
 			"import { observer } from 'mobx-react';",
-			"import * as React from 'react';",
+			"import React from 'react';",
 			"",
 			"export interface Props {",
 			"}",
@@ -110,7 +114,7 @@
 		"prefix": "react-mobx-component-class-stateteful",
 		"body": [
 			"import { observer } from 'mobx-react';",
-			"import * as React from 'react';",
+			"import React from 'react';",
 			"",
 			"export interface Props {",
 			"}",

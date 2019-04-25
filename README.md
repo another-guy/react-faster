@@ -12,7 +12,7 @@ So many books on coding stress on importance of readable names. So, it's okay to
 
 ### Component Snippets
 
-| Prefix (name)                            | Snipper result                                    |
+| Prefix (name)                            | Snippet result                                    |
 |------------------------------------------|---------------------------------------------------|
 | `react-component-functional`             | React functional component.                       |
 | `react-component-class-stateteless`      | React class component without state.              |
@@ -23,7 +23,7 @@ So many books on coding stress on importance of readable names. So, it's okay to
 
 ### Hook Snippets
 
-| Prefix (name)                                        | Snipper result                                                                |
+| Prefix (name)                                        | Snippet result                                                                |
 |------------------------------------------------------|-------------------------------------------------------------------------------|
 | `react-hook-useState-initialize-immediately`         | Template of State Hook with immediate initialization.                         |
 | `react-hook-useState-initialize-lazily`              | Template of State Hook with delayed initialization using a callback function. |

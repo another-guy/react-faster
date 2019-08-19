@@ -12,14 +12,15 @@ So many books on coding stress on importance of readable names. So, it's okay to
 
 ### Component Snippets
 
-| Prefix (name)                            | Snippet result                                    |
-|------------------------------------------|---------------------------------------------------|
-| `react-component-functional`             | React functional component.                       |
-| `react-component-class-stateteless`      | React class component without state.              |
-| `react-component-class-stateteful`       | React class component with state.                 |
-| `react-mobx-component-functional`        | mobx-enabled React functional component.          |
-| `react-mobx-component-class-stateteless` | mobx-enabled React class component without state. |
-| `react-mobx-component-class-stateteful`  | mobx-enabled React class component with state.    |
+| Prefix (name)                                 | Snippet result                                          |
+|-----------------------------------------------|---------------------------------------------------------|
+| `react-component-functional`                  | React functional component.                             |
+| `react-component-class-stateteless`           | React class component without state.                    |
+| `react-component-class-stateteful`            | React class component with state.                       |
+| `react-mobx-component-functional`             | mobx-enabled React functional component.                |
+| `react-mobx-component-class-stateteless`      | mobx-enabled React class component without state.       |
+| `react-mobx-component-class-stateteful`       | mobx-enabled React class component with state.          |
+| `react-component-constructor-props-and-state` | Constructor with props and state for a class component. |
 
 ### Hook Snippets
 

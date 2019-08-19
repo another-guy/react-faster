@@ -14,6 +14,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 
   - for `useLayoutEffect`;
   - for `useDebugValue`.
 
+## [0.0.6] — 2019-08-19
+
+### Added
+
+- `react-component-constructor-props-and-state` snippet.
+
 ## [0.0.5] — 2019-04-25
 
 ### Added

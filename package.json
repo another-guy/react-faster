@@ -3,7 +3,7 @@
     "displayName": "react-faster",
     "icon": "images/logo.png",
     "description": "React snippets done right.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "engines": {
         "vscode": "^1.33.0"
     },

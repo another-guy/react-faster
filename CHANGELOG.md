@@ -14,6 +14,10 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 
   - for `useLayoutEffect`;
   - for `useDebugValue`.
 
+## [0.0.7] — 2021-01-26
+
+- `react-component-*` hooks don't expose components as `default` imports anymore.
+
 ## [0.0.6] — 2019-08-19
 
 ### Added

@@ -13,3 +13,9 @@
   - [ ] Mark commit with a tag.
   - [ ] `vsce package`
   - [ ] `vsce publish`
+
+## VSCE
+
+```sh
+vsce login another-guy
+```
